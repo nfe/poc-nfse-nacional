@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DPS versao="1.00" xmlns="http://www.sped.fazenda.gov.br/nfse">
+  <infDPS Id="DPS140015924771279500012400900000001028360962">
+    <tpAmb>2</tpAmb>
+    <dhEmi>2022-09-21T11:25:21-03:00</dhEmi>
+    <verAplic>POC_0.0.0</verAplic>
+    <serie>900</serie>
+    <nDPS>1028360962</nDPS>
+    <dCompet>2022-09-21</dCompet>
+    <tpEmit>1</tpEmit>
+    <cLocEmi>1400159</cLocEmi>
+    <prest>
+      <CNPJ>47712795000124</CNPJ>
+      <IM>47712795000124</IM>
+      <regTrib>
+        <opSimpNac>1</opSimpNac>
+        <regEspTrib>1</regEspTrib>
+      </regTrib>
+    </prest>
+    <toma>
+      <CPF>16690232816</CPF>
+      <IM>999999999</IM>
+      <xNome>ROSIO VICTORIA GONZALES SANCHEZ</xNome>
+      <end>
+        <endNac>
+          <cMun>1400159</cMun>
+          <CEP>69380000</CEP>
+        </endNac>
+        <xLgr>Rua Sem Nome</xLgr>
+        <nro>098</nro>
+        <xCpl>APTO 1234</xCpl>
+        <xBairro>Bairro Sem Nome</xBairro>
+      </end>
+    </toma>
+    <serv>
+      <locPrest>
+        <cLocPrestacao>1400159</cLocPrestacao>
+      </locPrest>
+      <cServ>
+        <cTribNac>010301</cTribNac>
+        <xDescServ>Ullam ipsum quam et ea nemo enim. Sunt nostrum est saepe. In optio qui repellat ut recusandae in. Magnam hic ea ut dolorem eum qui incidunt nemo.</xDescServ>
+      </cServ>
+    </serv>
+    <valores>
+      <vServPrest>
+        <vServ>6.73</vServ>
+      </vServPrest>
+      <trib>
+        <tribMun>
+          <tribISSQN>1</tribISSQN>
+          <tpRetISSQN>1</tpRetISSQN>
+        </tribMun>
+        <totTrib>
+          <pTotTrib>
+            <pTotTribFed>1</pTotTribFed>
+            <pTotTribEst>1</pTotTribEst>
+            <pTotTribMun>1</pTotTribMun>
+          </pTotTrib>
+        </totTrib>
+      </trib>
+    </valores>
+  </infDPS>
+</DPS>
