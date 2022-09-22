@@ -2,6 +2,9 @@
 
 Projeto desenvolvido para testes em ambiente de produção restrita durante [Evento Técnico NFS-e (Teste de APIs e Emissor Web)](https://www.gov.br/nfse/pt-br/eventos_NFS-e/eventoTecnicoSetembro2022)
 
+## Documentos e Vídeos produzidos pelas Empresas
+https://drive.google.com/drive/folders/10guYCpUBRgDC46yWbz6vkdf45SsGmCAd
+
 ## 🛠️ Swagger
 https://www.producaorestrita.nfse.gov.br/swagger/contribuintesissqn/
 > ❗IMPORTANTE❗Até este momento o endereço correto para comunicação com a SEFIN é o https://sefin.producaorestrita.nfse.gov.br/SefinNacional
