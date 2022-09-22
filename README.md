@@ -25,11 +25,5 @@ https://www.producaorestrita.nfse.gov.br/EmissorNacional/
 - [Planilha com Países e Municípios V1.00.02 - Homologação](https://www.gov.br/nfse/pt-br/eventos_NFS-e/evento-tecnico-setembro-de-2022/anexoa-tabelas_iso2paises_munibge_rodovias-snnfse_v1-00-02-homologacao.xlsx)
 - [Planilha com Lista de Serviços V1.00.02 - Homologação](https://www.gov.br/nfse/pt-br/eventos_NFS-e/evento-tecnico-setembro-de-2022/anexob-listasservnac_nbs-snnfse_v1-00-02-homologacao.xlsx)
 
-## 🧑‍💻 Participação em reunião remota diária
-De segunda à sexta das 11 às 12 horas até 30 de setembro de 2022 disponível [nesta sala](https://teams.microsoft.com/l/meetup-join/19:meeting_ZjZkYTJiYTctYTgzNi00ZGVkLWI2MmItYjBmMjAzYTMzYmNm@thread.v2/0?context=%7B%22Tid%22:%226f49aa43-822a-4c20-9670-db7700bf1eb0%22,%22Oid%22:%225e4da1fb-90cf-48df-97c0-8d48ee12df40%22%7D) do Microsoft Teams.
-
-## 🗨️ Grupo de discussão no WhatsApp
-https://chat.whatsapp.com/HGj2pdXWqGj5MttqSw48Kk
-
 ## 🗣️ Fórum
 [Redmine SERPRO](https://redmine.serpro.gov.br/)
