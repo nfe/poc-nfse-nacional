@@ -48,6 +48,12 @@ namespace NFSe.PocLive
 
             //
             // Teste API
+            // Retorna o DANFSe de uma NFS-e a partir de sua chave de acesso.
+            //
+            TesteConsultaDANFSe(chaveAcesso);
+
+            //
+            // Teste API
             // Obter NFS-e pagáveis pelo contribuinte.
             //
             var responseContentGet = TesteNFSeListagem();
@@ -80,6 +86,22 @@ namespace NFSe.PocLive
                 using var gzip = new GZipStream(cryptoStream, CompressionMode.Decompress);
                 using var ungziped = new FileStream($@"{jsonGetResponse.chaveAcesso}.xml", FileMode.Create);
                 gzip.CopyTo(ungziped);
+            }
+        }
+
+        private static void TesteConsultaDANFSe(string chaveAcesso)
+        {
+            var response = CreateHttpClient().GetAsync($"danfse/{chaveAcesso}")
+                            .GetAwaiter().GetResult();
+
+            if (response.IsSuccessStatusCode)
+            {
+                // retorna o stream de bytes do pdf
+                var danfseStream = response.Content.ReadAsStreamAsync().GetAwaiter().GetResult();
+
+                // grava o arquivo através do stream de bytes
+                var pdfFileStream = new FileStream($@"{chaveAcesso}.pdf", FileMode.Create);
+                danfseStream.CopyTo(pdfFileStream);
             }
         }
 
